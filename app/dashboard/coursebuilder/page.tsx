@@ -3,7 +3,7 @@ import React from "react";
 import Breadcrumb from "../components/Breadcrumbs/Breadcrumb";
 import CourseForm from "../components/CourseForm/index"
 
-const page = ({ user }) => {
+const Page = ({ user }) => {
   
   return (
     <>
@@ -59,4 +59,4 @@ const page = ({ user }) => {
   );
 };
 
-export default page;
+export default Page;
